@@ -1,7 +1,7 @@
 import {Link, useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 
-export const ViewTodoPage = ({}) => {
+export const ViewTodoPage = () => {
 
     const {id} = useParams();
     const [todo, setTodo] = useState(null);
